@@ -88,3 +88,13 @@ button:hover{
     padding: 40px;
     display: flex;
 }
+.our-products{
+    font-size: 50px;
+    font-weight: bold;
+    width: 100vw;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
