@@ -62,14 +62,14 @@ button:hover{
     width: auto;
     height: 5px;
     font-size: 60px;
-    font-weight: 600;
+    /* font-weight: ; */
     line-height: 40px;
 }
 .head-p{
     width: 550px;
     text-align: center;
     line-height: 22px;
-    color: gray;
+    color: rgb(106, 106, 106);
 }
 .apple-logo, .google-logo{
     width: 155px;
@@ -81,9 +81,10 @@ button:hover{
     font-size: 19px;
     font-weight: 500;
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 }
 .store-logos{
     display: flex;
     padding: 40px;
+    display: flex;
 }
