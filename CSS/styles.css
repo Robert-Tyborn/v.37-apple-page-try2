@@ -72,8 +72,18 @@ button:hover{
     color: gray;
 }
 .apple-logo, .google-logo{
+    width: 155px;
+    height: 45px;
     color: white;
     background-color: black;
     text-align: center;
-    
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+justify-content: space-around;
+}
+.store-logos{
+    display: flex;
+    padding: 40px;
 }
