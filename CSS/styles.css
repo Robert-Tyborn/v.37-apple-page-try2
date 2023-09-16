@@ -1,0 +1,26 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+nav ul li a{
+    color: grey;
+    text-decoration: none;
+}
