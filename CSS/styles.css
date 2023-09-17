@@ -107,8 +107,12 @@ main{
     width: 1100px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    border: 170px solid white;
+    /* border: 170px solid white; */
     border-color: solid white;
+    border-left: 170px solid white;
+    border-right: 170px solid white;
+    border-top: 100px solid white;
+    border-bottom: 100px solid white;
     /* margin-left: 200px;
     margin-top: 70px;
     margin-right: 200px; */
