@@ -192,9 +192,9 @@ footer{
 }
 .footer-button{
     border: 0;
-    width: 200px;
+    width: 400px;
     display: flex;
-    justify-content: space-between;
+    font-weight: lighter;
 }
 .footer-h2{
     font-size: 53px;
