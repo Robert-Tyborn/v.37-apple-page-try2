@@ -156,10 +156,64 @@ main{
 }
 .large-card p{
     color: #ffffff60;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 .card-button{
     border-color: #FFFFFF90;
     color: #FFFFFF90;
     font-weight: 200;
+    margin-bottom: 50px;
+}
+.footer-block{
+    margin-top: 140px;
+    width: 100vw;
+    height: 556px;
+    background-image: url(../IMG/footer-map.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+footer{
+    display: flex;
+}
+
+.contact{
+    width: 434px;
+    height: 417px;
+    background-color: white;
+    margin-left: 1050px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.footer-button{
+    border: 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-h2{
+    font-size: 53px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.footer-h3{
+    font-size: 22px;
+    color: #222222cb;
+    line-height: 0;
+    margin-bottom: 10px;
+}
+.footer-p{
+    width: 370px;
+    font-size: 14px;
+    color: #22222291;
+    margin-bottom: 20px;
+}
+.footer-button img{
+    width: 25px;
 }
