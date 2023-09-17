@@ -43,10 +43,10 @@ button{
     border: 1.5px solid;
     font-weight: 550;
     font-size: 14px;
-    transition: .4s;
+    transition: 1s;
 }
 button:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -54,7 +54,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     background-color: #EEEEEE;
 }
 
@@ -62,7 +61,6 @@ button:hover{
     width: auto;
     height: 5px;
     font-size: 60px;
-    /* font-weight: ; */
     line-height: 40px;
 }
 .head-p{
@@ -89,7 +87,7 @@ button:hover{
 }
 .our-products{
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
     width: 100vw;
     height: auto;
     background-color: #ffffff;
@@ -105,9 +103,9 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 70px;
-    margin-right: 180px;
+    margin-right: 200px;
     gap: 30px;
     color: black;
 }
